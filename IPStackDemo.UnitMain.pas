@@ -61,7 +61,7 @@ begin
 
   RESTRequest2.Execute;
 
-  var JSONValue := TJSONObject.ParseJSONValue(RESTResponse1.Content);
+  var JSONValue := TJSONObject.ParseJSONValue(RESTResponse2.Content);
   try
     if JSONValue is TJSONObject then
     begin
