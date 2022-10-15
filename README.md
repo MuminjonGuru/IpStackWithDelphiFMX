@@ -2,4 +2,4 @@
 https://ipstack.com/documentation
 
 
-![](ipstackapiintegration.png)
+![https://ipstack.com/](ipstackapiintegration.png)
