@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>My App</title>
+  </head>
+  <body>
+    <div class="container">
+
+        <h1>Proxy Checker</h1>
+        <form id="proxy-form"> 
+            <label for="text-input">Enter Text:</label>
+            <input type="text" id="text-input" name="text-input" required>
+            <button type="submit" id="submit">Check Proxies</button>
+        </form>
+
+
+        <table id="results">
+            <thead>
+                <tr>
+                    <th id="ip">IP</th>
+                    <th id="type">Type</th>
+                    <th id="continent_code">Continent Code</th>
+                    <th id="continent">Continent Name</th>
+                    <th id="country_code">Country Code</th>
+                    <th id="country">Country Name</th>
+                    <th id="region_code">Region Code</th>
+                    <th id="region">Region Name</th>
+                    <th id="city">City</th>
+                    <th id="zip">ZIP</th>
+                    <th id="latitude">Latitude</th>
+                    <th id="longitude">Longitude</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
