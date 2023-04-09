@@ -1,0 +1,36 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+    
+    h1 {
+    text-align: center;
+    padding: 20px 0;
+    }
+    
+    
+    #proxy-form {
+    text-align: center;
+    }
+    
+    
+    #results {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    }
+    
+    
+    #results th, #results td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    }
+    
+    
+    #results th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    }
+}
